@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <head>
+        <title>
+            Questions
+        </title>
+        <link rel = "stylesheet" href="quiz.css"/>
+    </head>
+
+    <body>
+        <div class="container" id = "container">
+        <h1> Quiz App</h1>
+        <div class="question" id = "ques">
+            What are people who write computer code called ?
+        </div>
+        <div class="answers">
+            <div class = "Ans">
+                <div class="ans">
+                    <button id = "one" onclick="check(this)">Programmer</button>
+                </div>
+                <div class="ans">
+                    <button id = "two" onclick="check(this)"> Manufacturer </button>
+                </div>
+            </div>
+            <div class="Ans">
+                <div class="ans">
+                    <button id = "three" onclick="check(this)"> Cryptographer </button>
+                </div>
+                <div class="ans">
+                    <button id = "four" onclick="check(this)"> Professors </button>
+                </div>
+            </div>
+        </div>
+
+        <div class = "buttons">
+            <button class = "prev" id = "prev" onclick="prevQuestion()"> Prev </button>
+            <button class = "next" id = "next" onclick = "nextQuestion()"> Next </button>
+        </div> 
+        
+    </div>
+
+       <div id = "score">
+            
+       </div>
+        <script src = "index.js"></script>
+    </body>
+</html>
